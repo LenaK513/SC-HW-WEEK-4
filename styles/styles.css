@@ -78,6 +78,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  flex-shrink: 0
 }
 
 @media screen and (min-width: 390px) and (max-width: 767px) {
@@ -100,6 +101,7 @@ img {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+   
   }
 }
 
@@ -281,6 +283,26 @@ img {
 /* ABOUT PAGE */
 /* ************************************************************** */
 
+
+.hero-about {
+  /* max-width: 1440px; */
+  height: 500px;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/DSC01176.jpg);
+  background-repeat: no-repeat;
+  /* background-position: start; */
+  background-size: contain;
+}
+
+.hero-about_wrap{
+  text-align: end;
+  width: 50%;
+}
+
+
 @media screen and (max-width: 767px) {
   .img-about {
     width: 400px;
@@ -309,13 +331,13 @@ img {
     margin-bottom: 15px;
   }
 }
-@media screen and (min-width: 768px) {
-  .hero-about {
+/* @media screen and (min-width: 768px) {
+  /* .hero-about {
     display: flex;
     flex-direction: row;
-  }
+  } */
 
-  .hero-about__description {
+  /* .hero-about__description {
     width: 55%;
   }
   .img-wrap {
@@ -325,7 +347,7 @@ img {
   .about-list {
     display: flex;
     justify-content: center;
-  }
+  } */ 
 
   .img-about {
     max-width: 50%;
