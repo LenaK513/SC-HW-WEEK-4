@@ -135,12 +135,14 @@ img {
   font-size: 64px;
   font-weight: 700;
   padding-top: 30px;
+  letter-spacing: 5px;
 }
 
 .hero__title {
   font-size: 44px;
   font-weight: 500;
   font-style: italic;
+  letter-spacing: 3px;
 }
 
 /* ***********************PORTFOLIO************************** */
@@ -309,6 +311,7 @@ img {
     font-size: 20px;
     color: #fff;
     font-weight: 500;
+    letter-spacing: 2px;
   }
   .hero-about__text {
     font-size: 12px;
@@ -364,6 +367,7 @@ img {
     color: #fff;
     font-weight: 500;
     margin-bottom: 15px;
+    letter-spacing: 3px;
   }
   .hero-about__text {
     font-size: 12px;
@@ -423,6 +427,7 @@ img {
   .hero-about__name {
     font-size: 44px;
     margin-bottom: 20px;
+    letter-spacing: 4px;
   }
 
   .hero-about__text {
@@ -481,5 +486,82 @@ img {
 @media screen and (min-width: 1200px) {
   .gallery-list__title {
     font-size: 60px;
+  }
+}
+/* *************************************************** */
+/* *******************CONTACTS*********************** */
+/* **************************************************** */
+
+span {
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: rgb(156, 4, 47);
+}
+
+.contact-section__wrap {
+  width: 100%;
+  text-align: center;
+}
+.contact-section__list {
+  display: inline-block;
+}
+@media screen and (max-width: 767px) {
+  .contact-section__title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+  }
+
+  .add:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  .contact__svg {
+    fill: #fff;
+    width: 15px;
+    height: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contact-section__title {
+    font-size: 54px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .span-mg {
+    margin-bottom: 10px;
+  }
+
+  .add {
+    margin-bottom: 20px;
+  }
+  .contact__svg {
+    fill: #fff;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contact-section__title {
+    font-size: 72px;
+  }
+  .contact-section__list > li {
+    font-size: 18px;
+  }
+
+  .contact__svg {
+    fill: #fff;
+    width: 30px;
+    height: 30px;
   }
 }
