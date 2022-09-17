@@ -109,7 +109,7 @@ img {
   }
 }
 
-.btn {
+.custom-link {
   padding: 15px 30px;
   background-color: #fff;
   color: #000;
@@ -124,10 +124,11 @@ img {
   display: block;
   justify-content: center;
 }
-/* .hero__btn {
-  background-color: rgb(156, 4, 47);
-  color: #fff;
-} */
+.hero__btn-about:hover,
+.hero__btn-about:focus {
+  background-color: #fff;
+  color: #000;
+}
 /* **********************HERO*********************** */
 .hero {
   /* padding: 30px 15px; */
@@ -157,6 +158,13 @@ img {
   letter-spacing: 3px;
 }
 
+.hero__btn:hover,
+.hero__btn:focus {
+  background-color: rgb(61, 60, 60);
+  color: #fff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 /* ***********************PORTFOLIO************************** */
 
 .portfolio {
@@ -194,6 +202,8 @@ img {
   .gallery__item {
     flex-basis: calc((100% - 4 * 15px) / 2);
     margin: 15px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
   }
 }
 
@@ -208,6 +218,8 @@ img {
     margin: 0;
     margin-left: 30px;
     margin-top: 30px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
   }
 }
 /* ********************* FOOTER ******************** */
@@ -345,6 +357,7 @@ img {
     cursor: pointer;
     background-color: rgb(156, 4, 47);
     color: #fff;
+    margin-top: 50px;
   }
 
   .about-gallery__item:not(:last-child) {
@@ -358,6 +371,10 @@ img {
   }
   .footer__svg {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .about-section-list {
+    margin-bottom: 30px;
   }
 }
 
@@ -408,7 +425,7 @@ img {
   .hero__btn-about {
     padding: 15px 20px;
     font-size: 12px;
-    margin-top: 40px;
+    margin-top: 140px;
     cursor: pointer;
     background-color: rgb(156, 4, 47);
     color: #fff;
@@ -429,6 +446,9 @@ img {
   .footer__info {
     color: #fff;
     font-size: 18px;
+  }
+  .about-section-list {
+    margin-bottom: 60px;
   }
 }
 
@@ -477,6 +497,10 @@ img {
     padding: 20px 30px;
     font-size: 16px;
     margin-top: 40px;
+  }
+
+  .about-section-list {
+    margin-bottom: 60px;
   }
 }
 /* ************************************************************** */
